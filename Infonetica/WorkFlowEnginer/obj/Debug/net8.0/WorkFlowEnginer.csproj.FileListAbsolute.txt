@@ -37,3 +37,4 @@ C:\Users\hp\Infonetica\WorkFlowEnginer\obj\Debug\net8.0\refint\WorkFlowEnginer.d
 C:\Users\hp\Infonetica\WorkFlowEnginer\obj\Debug\net8.0\WorkFlowEnginer.pdb
 C:\Users\hp\Infonetica\WorkFlowEnginer\obj\Debug\net8.0\WorkFlowEnginer.genruntimeconfig.cache
 C:\Users\hp\Infonetica\WorkFlowEnginer\obj\Debug\net8.0\ref\WorkFlowEnginer.dll
+C:\Users\hp\Infonetica\WorkFlowEnginer\obj\Debug\net8.0\WorkFlowEnginer.sourcelink.json

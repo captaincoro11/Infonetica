@@ -136,6 +136,12 @@ public class WorkFlowService
             return (false, "Invalid transition from current state", null);
         }
 
+        if (!action.Enabled)
+        {
+            return (false, "Action Not Enabled", null);
+        }
+
+
         var updatedInstance = instance with
         {
             currentState = action.ToState,
