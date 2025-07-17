@@ -55,7 +55,7 @@ Replace the above {definitionId} by bookingWorkflow if using above example
 ```
 $ http://localhost:5232/workflow/instance/{instanceId}/action/{actionId}
 ```
-Replace the above {instanceId} with the one which you get as a response from 3rd number API and in place of {actionId} chose the one which suits your case 
+Replace the above {instanceId} with the one which you get as a response from 3rd number API and in place of {actionId} chose the one which suits your case , for eg in this case as we have kept "approved" state as true so we will select actionId = "complete" so we can move from "approved" to "done"
 
 5-> Fetching the instance 
 ```
