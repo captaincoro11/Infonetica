@@ -49,13 +49,13 @@ If using above example can replace {definitionId} by bookingWorkflow
 ```
 $ http://localhost:5232/workflow/instance/{definitionId}
 ```
-Replace the above {definitionId} with the one set isInitial = true
+Replace the above {definitionId} by bookingWorkflow if using above example
 
 4-> Moving From One State to Another
 ```
 $ http://localhost:5232/workflow/instance/{instanceId}/action/{actionId}
 ```
-Replace the above {instanceId} with the one which you get as a response from 3 and in place of {actionId} chose the one which suits your case 
+Replace the above {instanceId} with the one which you get as a response from 3rd number API and in place of {actionId} chose the one which suits your case 
 
 5-> Fetching the instance 
 ```
