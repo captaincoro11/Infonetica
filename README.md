@@ -2,7 +2,7 @@
 ## Initial Setup
 First Clone This Repository
 ```
-$ https://github.com/captaincoro11/Infonetica.git
+$ git clone https://github.com/captaincoro11/Infonetica.git
 ```
 After Cloning Run These Commands
 ```
