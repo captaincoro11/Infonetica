@@ -8,7 +8,7 @@ public class WorkFlowService
     private readonly Dictionary<string, WorkFlowDefinition> _definitions = new();
     private readonly Dictionary<string, WorkFlowInstance> _instances = new();
 
-    // Check for only one isInitial == true to be present while creating an instance
+    // Check for only one isInitial == true to be present and no duplicate ids
     public bool validateDefinition(WorkFlowDefinition def)
     {
         int initialStateCount = 0;
@@ -91,6 +91,7 @@ public class WorkFlowService
     // Executing actions to move from one state to another 
     public (bool success, string message, WorkFlowInstance? instance) ExecuteAction(string instanceId, string actionId)
     {
+        // ToDo :- validation checks for enabled and disabled flags
         if (!_instances.ContainsKey(instanceId))
         {
             return (false, "Instance Not Found", null);
