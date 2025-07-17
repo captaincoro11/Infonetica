@@ -43,7 +43,7 @@ Added body to test above functionality
 ```
 $ http://localhost:5232/workflow/definition/{definitionId}
 ```
-If using above example can replace {definitionId} by "requested" , "approved" or "done" making any one of the isInitial true not more than one
+If using above example can replace {definitionId} by bookingWorkflow
 
 3-> Creating an instance using definitionId
 ```
